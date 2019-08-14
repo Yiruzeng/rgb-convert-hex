@@ -1,0 +1,49 @@
+
+
+body{
+  background-color: rgb(0,0,0);
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+output{
+  display: inline-block;
+  min-width: 2.5em;
+}
+
+.slider{
+  margin: 10px;
+}
+label, output{
+  padding: 2px 9px;
+  border-radius: 3px;
+  color: #000;
+  font-size: 1.1em;
+}
+
+label[for=r], output[for=r]{
+  background-color: red;
+  border-radius: 4px;
+}
+label[for=g], output[for=g]{
+  background-color: green;
+  border-radius: 4px;
+}
+label[for=b], output[for=b]{
+  background-color: blue;
+  border-radius: 4px;
+}
+
+#hex-output{
+  margin-top: 1em;
+  font-size: 2em;
+  background: rgba(255,255,255,0.3);
+  width: 30%;
+  color: black;
+}

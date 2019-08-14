@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>RGB to Hex Converter</title>
+  <!-- link bootstrap and fontawesome css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div id="rgb">
+      <div class="slider">
+        <label for="r">R</label>
+        <input type="range" min="0" max="255" id="red" step="1" value="0">
+        <output for="r" id="r_output">0</output>
+      </div>
+      <div class="slider">
+        <label for="g">G</label>
+        <input type="range" min="0" max="255" id="green" step="1" value="0">
+        <output for="g" id="g_output">0</output>
+      </div>
+      <div class="slider">
+        <label for="b">B</label>
+        <input type="range" min="0" max="255" id="blue" step="1" value="0">
+        <output for="b" id="b_output">0</output>
+      </div>
+    </div>
+    <div id="hex-output">#000000</div>
+    <script src="main.js"></script>
+  </div>
+</body>
+
+</html>
