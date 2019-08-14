@@ -10,5 +10,5 @@ Alpha Camp Final Project 2
 - RGB color code convert to hex code
 
 ### Demo Page
-
+https://yiruzeng.github.io/rgb-convert-hex/
 
