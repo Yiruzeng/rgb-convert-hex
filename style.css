@@ -30,14 +30,17 @@ label, output{
 label[for=r], output[for=r]{
   background-color: red;
   border-radius: 4px;
+  width: 40px;
 }
 label[for=g], output[for=g]{
   background-color: green;
   border-radius: 4px;
+  width: 40px;
 }
 label[for=b], output[for=b]{
   background-color: blue;
   border-radius: 4px;
+  width: 40px;
 }
 
 #hex-output{
